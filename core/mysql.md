@@ -25,7 +25,7 @@ Note: this is based on [api-platform 2.3.2](https://github.com/api-platform/api-
 +        driver: 'pdo_mysql'
 +        server_version: '5.7'
 ```
-- /api/config/packages/doctrine.yaml
+- /api/docker/php/docker-entrypoint.sh
 ```
 if [ "$1" = 'php-fpm' ] || [ "$1" = 'bin/console' ]; then
 
